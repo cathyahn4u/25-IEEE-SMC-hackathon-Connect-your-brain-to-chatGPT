@@ -1,0 +1,31 @@
+
+  [
+    {
+      "name": "Test 1 - Default Context",
+      "context": "default",
+      "messages": [
+        "What is BR41N.IO hackathon",
+        "Where is it being hosted",
+        "How many team are there"
+      ]
+    },
+    {
+      "name": "Test 2 - Supportive Context",
+      "context": "supportive",
+      "messages": [
+        "I feel sad today",
+        "what should I do now",
+        "Is there any outdoor activities I should do"
+      ]
+    },
+    {
+      "name": "Test 3 - Control Context",
+      "context": "control",
+      "messages": [
+        "Turn on my TV",
+        "turn up the volumn by 10%",
+        "change my channel to channel 45"
+      ]
+    }
+  ]
+
