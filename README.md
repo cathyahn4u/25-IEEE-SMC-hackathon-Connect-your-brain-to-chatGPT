@@ -42,8 +42,8 @@ neurotypegpt/
 
 5. Train models:
     ```bash
-  python src/models.py --train --model emotion --data data/processed/emotion_features.pkl
-  python src/models.py --train --model intent --data data/processed/physionet_features.pkl
+   python src/models.py --train --model emotion --data data/processed/emotion_features.pkl
+   python src/models.py --train --model intent --data data/processed/physionet_features.pkl
 
 6. Run demo (set OPENAI_API_KEY as env var):
     ```bash
