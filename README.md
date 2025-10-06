@@ -36,14 +36,17 @@ neurotypegpt/
 
 3. Download datasets (links above). Place raw files in data/raw/.
 4. Preprocess & extract features:
+    ```bash
    python src/data_utils.py --dataset emotion --out data/processed/emotion_features.pkl
    python src/data_utils.py --dataset physionet --out data/processed/physionet_features.pkl
 
-5. Train models:
+6. Train models:
+    ```bash
   python src/models.py --train --model emotion --data data/processed/emotion_features.pkl
   python src/models.py --train --model intent --data data/processed/physionet_features.pkl
 
-6. Run demo (set OPENAI_API_KEY as env var):
+8. Run demo (set OPENAI_API_KEY as env var):
+    ```bash
     export OPENAI_API_KEY="sk-XXXXX"
     streamlit run src/app.py
 
