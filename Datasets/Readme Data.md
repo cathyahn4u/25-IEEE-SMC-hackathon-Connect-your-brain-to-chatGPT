@@ -64,10 +64,3 @@ This dataset powers the Emotionally Adaptive ChatGPT module, allowing the system
     ├── readme_physionet.txt
     ├── readme_emotion.txt
     └── label_mapping.json
-
-
-
-
-5. Emotion & Cognitive Mapping	Emotion model (from Dataset 2) and cognitive model (from PhysioNet data) classify signals.	Emotional and cognitive state labels
-6. Adaptive Prompting	The outputs are used to dynamically re-engineer ChatGPT prompts in real time.	Context-aware ChatGPT responses
-Dataset Directory Structure
